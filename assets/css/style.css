@@ -40,9 +40,20 @@
 } 
 
 
-
-
-
+/* ##############Slider section #########  */
+ .main-slider .carousel-item, 
+ .main-slider .carousel-inner, 
+ .main-slider .carousel-inner > img {
+  height: 400px;
+}
+.main-slider .carousel-inner > img{
+  object-fit: cover;
+}
+.main-slider .carousel-caption{
+  top:50%;
+  bottom: auto;
+  transform: translateY(-50%);
+}
 
 
 
