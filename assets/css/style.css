@@ -37,7 +37,7 @@
   color: var(--color-white);
   padding-top: 0;
   padding-bottom: 0;
-  height: 56px;
+ line-height: 56px;
 } 
 
 
@@ -86,4 +86,12 @@ object-fit: cover;
   .mainNav.nav-item {
     margin-left: 5px;
 }
+}
+/* ###########ABoutus page########### */
+
+#testimonailslider img{
+width: 80%;
+display: block;
+margin: 0 auto 15px;
+border: 4px solid #fff;
 }
